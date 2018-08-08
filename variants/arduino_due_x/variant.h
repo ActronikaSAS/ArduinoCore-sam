@@ -171,6 +171,12 @@ static const uint8_t SCL1 = PIN_WIRE1_SCL;
 // Serial3
 #define PINS_USART3          (84u)
 
+#define HAVE_HWSERIAL0
+#define HAVE_HWSERIAL1
+#define HAVE_HWSERIAL2
+#define HAVE_HWSERIAL3
+#define HAVE_HWSERIALUSB
+
 /*
  * USB Interfaces
  */
