@@ -9,8 +9,8 @@ First, uninstall the package named:
 
 Then, run `install.py` with python 3.x and with the settings directory of your arduino IDE as argument.
 
-Usually this directory is located as `/home/username/.arduino15/` so the commandline is:  
->`python3 install.py /home/username/.arduino15`
+Usually this directory is located at `/home/username/.arduino15/` so the commandline is:  
+>`python3 install.py /home/username/.arduino15/`
 
 Restart Arduino IDE  
 The boards **Actronika Arduino ARM (32-bits) Boards** should now appear in the boards menu in your Arduino IDE
