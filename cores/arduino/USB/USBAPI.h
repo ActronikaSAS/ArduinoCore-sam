@@ -22,7 +22,7 @@
 #if defined __cplusplus
 
 #include "RingBuffer.h"
-#include "Stream.h"
+#include "HardwareSerial.h"
 
 //================================================================================
 //================================================================================
@@ -44,7 +44,7 @@ extern USBDevice_ USBDevice;
 //================================================================================
 //	Serial over CDC (Serial1 is the physical port)
 
-class Serial_ : public Stream
+class Serial_ : public HardwareSerial
 {
 private:
 	RingBuffer *_cdc_rx_buffer;
