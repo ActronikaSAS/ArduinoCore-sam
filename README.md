@@ -7,10 +7,10 @@ This repository contains the source code and configuration files of the Arduino 
 First, uninstall the package named:  
 **Arduino SAM Boards (32-bit ARM Cortex-M3)**
 
-Then, get inside your Arduino configuration directory, usually:  
-`/home/[username]/.arduino15/`  
+Then, run `install.py` with python 3.x and with the settings directory of your arduino IDE as argument.
 
-Execute the following command:  
->`git clone git@github.com:ActronikaSAS/ArduinoCore-sam.git packages/arduino/hardware/sam/1.6.11/`  
+Usually this directory is located as `/home/username/.arduino15/` so the commandline is:  
+>`python3 install.py /home/username/.arduino15`
 
+Restart Arduino IDE  
 The boards **Actronika Arduino ARM (32-bits) Boards** should now appear in the boards menu in your Arduino IDE
